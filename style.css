@@ -1,0 +1,65 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    min-height: 170vh;
+    overflow-x: hidden;
+    
+  }
+  
+ 
+
+  #abot {
+    position: relative;
+    top: 200px;
+  }
+  #jumbotron {
+    position: relative;
+    top: 70px;
+  }
+  #juduljumbo {
+    font-family: 'akira';
+  }
+  #img {
+    position: relative;
+    top: 30px;
+  }
+  #jumbotext {
+    font-weight: bold;
+  }
+  #abot2 {
+    font-family: 'futuitalic';
+  }
+  footer {
+    position: relative;
+    top: 350px;
+    left: 50px;
+    color: #808080;
+  }
+  footer h1 {
+    font-size: 12px;
+  }
+  @font-face {
+    font-family: akira;
+    src: url(Akira.otf);
+  }
+  @font-face {
+    font-family: futuitalic;
+    src: url(futura\ italic.ttf);
+  }
+  @media screen and (max-width: 375px) {
+    body {
+      min-height: 200vh;
+      overflow-x: hidden;
+    }
+    footer {
+      left: 0px;
+      top: 350px;
+    }
+  }
